@@ -1,0 +1,94 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<header>
+    <nav class="navbar">
+        <ul class="main-nav" id="main-nav-js">
+            <li>
+                <a href="./index.html" class="nav-link">
+                    <img src="img/svg/drum.svg" alt="drum-icon" height="24">
+                    <span>Strona Główna</span>
+                </a>
+            </li>
+            <li>
+                <a href="./link1.html">
+                    <img src="img/svg/discount.svg" alt="drum-icon" height="24">
+                    <span>Oferta</span>
+                </a>
+            </li>
+            <li>
+                <a href="./link2.html">
+                    <img src="img/svg/camera.svg" alt="drum-icon" height="24">
+                    <span>Galeria i Video</span>
+                </a>
+            </li>
+            <li>
+                <a href="./link3.html">
+                    <img src="img/svg/music-and-multimedia.svg" alt="drum-icon" height="24">
+                    <span>O mnie</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html#contact" class="nav-link">
+                    <img src="img/svg/support.svg" alt="drum-icon" height="24">
+                    <span>Kontakt</span>
+                </a>
+            </li>
+            <li class="active">
+                <a href="./link4.html">
+                    <img src="img/svg/checklist.svg" alt="drum-icon" height="24">
+                    <span>To Do List</span>
+                </a>
+            </li>
+            <li class="icon">
+                <a href="javascript:void(0);" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<section id="to-do-list">
+    <div class="container">
+        <div class="add-new">
+            <label>Stwórz swoją listę zadań do Gry na perkusji!</label>
+            <div class="row">
+                <input type="text" id="to-do-input" placeholder="Nowe zadanie">
+                <button onclick="newElement()" class="add-button">Dodaj!</button>
+            </div>
+        </div>
+        <ul class="list" id="list-js">
+            <li class="list-element-js">
+               Graj jedynki 5 min dziennie (tempo 110 bpm)
+            </li>
+            <li class="list-element-js">
+                Graj dwójki 5 min dziennie (tempo 100 bpm)
+            </li>
+            <li class="list-element-js">
+               Graj paradidlle 5 min dziennie (tempo 90 bpm)
+            </li>
+            <li class="list-element-js">
+              Naucz się grać zwrotkę do "I hate everything about you" zespołu Three days Grace
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+<script src="scripts/app.js"></script>
+</body>
+</html>

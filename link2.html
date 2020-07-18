@@ -1,0 +1,174 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<header>
+    <nav class="navbar">
+        <ul class="main-nav" id="main-nav-js">
+            <li>
+                <a href="./index.html" class="nav-link">
+                    <img src="img/svg/drum.svg" alt="drum-icon" height="24">
+                    <span>Strona Główna</span>
+                </a>
+            </li>
+            <li>
+                <a href="./link1.html">
+                    <img src="img/svg/discount.svg" alt="drum-icon" height="24">
+                    <span>Oferta</span>
+                </a>
+            </li>
+            <li class="active">
+                <a href="./link2.html">
+                    <img src="img/svg/camera.svg" alt="drum-icon" height="24">
+                    <span>Galeria i Video</span>
+                </a>
+            </li>
+            <li >
+                <a href="./link3.html">
+                    <img src="img/svg/music-and-multimedia.svg" alt="drum-icon" height="24">
+                    <span>O mnie</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html#contact" class="nav-link">
+                    <img src="img/svg/support.svg" alt="drum-icon" height="24">
+                    <span>Kontakt</span>
+                </a>
+            </li>
+            <li >
+                <a href="./link4.html">
+                    <img src="img/svg/checklist.svg" alt="drum-icon" height="24">
+                    <span>To Do List</span>
+                </a>
+            </li>
+            <li class="icon">
+                <a href="javascript:void(0);" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<section id="gallery">
+
+    <div class="container">
+        <h1>Poznaj naszych uczniów!</h1>
+
+
+        <div class="resp">
+            <div class="gallery">
+                <a target="_blank" href="img/Michał-nauczyciel.jpg">
+                    <img src="img/Michał-nauczyciel.jpg" alt="Michał" width="600" height="400">
+                </a>
+                <div class="desc">Michał - Nauczyciel</div>
+            </div>
+        </div>
+
+
+        <div class="resp">
+            <div class="gallery">
+                <a target="_blank" href="img/Mikołaj.png">
+                    <img src="img/Mikołaj.png" alt="Mikołaj" width="600" height="400">
+                </a>
+                <div class="desc">Maciek</div>
+            </div>
+        </div>
+
+        <div class="resp">
+            <div class="gallery">
+                <a target="_blank" href="img/Mikołaj2.png">
+                    <img src="img/Mikołaj2.png" alt="Mikołaj2" width="600" height="400">
+                </a>
+                <div class="desc">Mikołaj</div>
+            </div>
+        </div>
+
+        <div class="resp">
+            <div class="gallery">
+                <a target="_blank" href="img/Krzyś.png">
+                    <img src="img/Krzyś.png" alt="Krzyś" width="600" height="400">
+                </a>
+                <div class="desc">Krzyś</div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="resp">
+            <div class="gallery">
+                <a target="_blank" href="img/Krzyś2.png">
+                    <img src="img/Krzyś2.png" alt="Krzyś2" width="600" height="400">
+                </a>
+                <div class="desc">Krzyś</div>
+            </div>
+        </div>
+
+
+        <div class="resp">
+            <div class="gallery">
+                <a target="_blank" href="img/Jasiek.png">
+                    <img src="img/Jasiek.png" alt="Jasiek" width="600" height="400">
+                </a>
+                <div class="desc">Jasiek</div>
+            </div>
+        </div>
+
+        <div class="resp">
+            <div class="gallery">
+                <a target="_blank" href="img/Teoś.png">
+                    <img src="img/Teoś.png" alt="Teoś" width="600" height="400">
+                </a>
+                <div class="desc">Teoś</div>
+            </div>
+        </div>
+
+        <div class="resp">
+            <div class="gallery">
+                <a target="_blank" href="img/Oskar.png">
+                    <img src="img/Oskar.png" alt="Oskar" width="600" height="400">
+                </a>
+                <div class="desc">Oskar</div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+    </div>
+    <div class="container">
+        <h1>Posluchaj jak grają!</h1>
+        <div class="video-container">
+            <div class="video-text">
+                <button onclick="changeVideo1()" id="change-video-button-1">Oskar Farbaniec</button>
+                <button onclick="changeVideo2()" id="change-video-button-2">Mikołaj</button>
+            </div>
+            <div class="video-window">
+                <iframe id="youtube-video"
+                        width="700" height="550" src="https://www.youtube.com/embed/AHRD6u0JuHU"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+
+<script src="scripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<header>
+    <nav class="navbar">
+        <ul class="main-nav" id="main-nav-js">
+            <li class="active">
+                <a href="#main-section" class="nav-link">
+                    <img src="img/svg/drum.svg" alt="drum-icon" height="24">
+                    <span>Strona Główna</span>
+                </a>
+            </li>
+            <li>
+                <a href="./link1.html">
+                    <img src="img/svg/discount.svg" alt="drum-icon" height="24">
+                    <span>Oferta</span>
+                </a>
+            </li>
+            <li>
+                <a href="./link2.html">
+                    <img src="img/svg/camera.svg" alt="drum-icon" height="24">
+                    <span>Galeria i Video</span>
+                </a>
+            </li>
+            <li>
+                <a href="./link3.html">
+                    <img src="img/svg/music-and-multimedia.svg" alt="drum-icon" height="24">
+                    <span>O mnie</span>
+                </a>
+            </li>
+            <li>
+                <a href="index.html#contact" class="nav-link">
+                    <img src="img/svg/support.svg" alt="drum-icon" height="24">
+                    <span>Kontakt</span>
+                </a>
+            </li>
+            <li>
+                <a href="./link4.html">
+                    <img src="img/svg/checklist.svg" alt="drum-icon" height="24">
+                    <span>To Do List</span>
+                </a>
+            </li>
+            <li class="icon">
+                <a href="javascript:void(0);" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<section id="main-section">
+
+    <div class="test">
+        <video autoplay muted loop id="myVideo">
+            <source src="assets/Project%202.mp4" type="video/mp4">
+        </video>
+        <div class="overlay">
+            <div class="column">
+                <h1>Lekcje Perkusji</h1>
+                <h5>Chcesz nauczyć się grać na perkusji?</h5>
+                <a href="#about" id="learn-more" class="nav-link">
+                    <h3>Dowiedz się więcej!</h3>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="about">
+    <div class="container">
+        <div class="row ">
+            <div class="about-text">
+                <div class="column">
+                    <h2>Naucz się grać</h2>
+                    <span>Zawsze marzyłeś, by grać na jakimś instrumencie? Wybijasz ciągle rytm na kolanach i chciałbyś
+                spróbować pograć na dobrym sprzęcie? A może po prostu chcesz spróbować soich sił jako muzyk?
+                Nie zwlekaj i zapisz się na lekcje już dzisiaj!</span>
+                </div>
+            </div>
+            <div class="about-image">
+                <a href="./link1.html" class="story_link">
+                    <div class="background">
+                        <div class="image" id="team-image-1">
+                            <div class="gradient">
+                                <div class="icon">
+                                    <img src="img/svg/discount.svg" alt="icon" height="32" width="32"/>
+                                </div>
+                                <span>Zobacz Ofertę!</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="about-image">
+                <a href="./link2.html" class="story_link">
+                    <div class="background">
+                        <div class="image" id="team-image-2">
+                            <div class="gradient">
+                                <div class="icon">
+                                    <img src="img/svg/camera.svg" alt="icon" height="32" width="32"/>
+                                </div>
+                                <span>Zobacz naszą Galerie!</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="about-text">
+                <div class="column">
+                    <h2>Tworzymy muzyków!</h2>
+                    <span>Mamy wielu zadowolonych klientów, perkusistów którzy powierzyli nam swój rozwój!
+                    Niektórzy dopiero zaczynają inni grają już lata! Jeśli chcesz możesz zobaczyć
+                    ich postępy w naszej galeri. Są tam też udostępnione video naszych uczniów. Nie zwlekaj i dołącz
+                    do nich!</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="about-text">
+                <div class="column">
+                    <h2>Kocham muzykę!</h2>
+                    <span>Chcesz się czegoś więcej dowiedzieć o mnie? Uczę gry na perkusji od kilku lat.
+                    Na perkusji gram od 3 roku życia! Sprawdź mnie jeśli chcesz dowiedzieć się więcej!</span>
+                </div>
+            </div>
+            <div class="about-image">
+                <a href="./link3.html" class="story_link">
+                    <div class="background">
+                        <div class="image" id="team-image-3">
+                            <div class="gradient">
+                                <div class="icon">
+                                    <img src="img/svg/music-and-multimedia.svg" alt="icon" height="32" width="32"/>
+                                </div>
+                                <span>Więcej o Mnie!</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div id="contact">
+        <form method="post">
+            <div class="">
+                <h2>Formularz kontaktowy</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="form-container">
+                            <div class="form-group">
+                                <label>
+                                    <span>Imię i Nazwisko:</span>
+                                    <input class="form-control" type="text">
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    <span>Email:</span>
+                                    <input class="form-control" type="email">
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    <span>Temat:</span>
+                                    <input class="form-control" type="text">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-container">
+                            <div class="form-group">
+                                <label id="message">
+                                    <span>Wiadomość:</span>
+                                    <textarea class="form-control" rows="9"></textarea>
+                                </label>
+                                <div class="submit-button">
+                                    <button class="send-button" type="submit">Wyślij</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+</section>
+
+<script src="scripts/plugins.js"></script>
+<script src="scripts/app.js"></script>
+</body>
+</html>
